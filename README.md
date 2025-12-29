@@ -48,6 +48,9 @@ The dataset is placed in the `/data` directory.
 ## Training
 Use the following command to start training your BrailleTrans model:
 ```
+├── src
+·   ├── train.py
+
 python src/train.py \
 --data_dir /path/to/your/data/ \          # Change to your data directory path
 --bert_path /path/to/bert/model/ \        # Change to BERT model path
