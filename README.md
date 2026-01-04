@@ -1,9 +1,9 @@
 #  <p align="center">Chinese-to-Braille Translation Model Based on Pretrained Language Models and Mixture of Experts Networks</p >
-
 <p align="center">
 Dapeng Chen, Zhou Zhuang, Lianshun Shen, Chenkai Li, Lina Wei, and Jia Liu∗<br>
 Nanjing University of Information Science and Technology
 </p>
+
 
 ## <p align="center">ABSTRACT</p >
 Braille is the primary medium with the blind or visually impaired (BVI) access information, and accurate conversion between Braille and Chinese text is a key technological component in advancing information accessibility. However, traditional translation methods exhibit significant limitations in handling polyphonic character disambiguation and complex word segmentation rules in Chinese, making it difficult to meet the requirements for high accuracy and robustness in real-world applications. To address this challenge, this paper proposes a Chinese-to-Braille translation architecture that integrates a pretrained language model with a Mixture of Experts (MoE) network. The proposed approach adopts an end-to-end encoder–decoder framework, in which the encoder leverages BERT to obtain rich deep semantic representations and incorporates a MoE mechanism to enable specialized modeling of diverse linguistic phenomena, thereby enhancing the model’s adaptability in complex semantic scenarios.To evaluate the performance of the proposed model, we construct a large-scale Chinese–Braille parallel corpus covering multiple domains, including news, literature, and daily communication. Experimental results demonstrate that the proposed Chinese-to-Braille translation model integrating a pretrained language model and a MoE achieves a BLEU score of 98.15% on the test set, significantly outperforming traditional rule-based methods as well as various neural network baseline models. Further ablation studies indicate that both the BERT-based semantic representations and the MoE mechanism play critical roles in improving translation performance. In addition, qualitative feedback obtained through user studies suggests that the proposed approach effectively enhances reading fluency and content comprehension for BVI.
