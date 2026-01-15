@@ -1,9 +1,5 @@
 <h1 align="center">Chinese-to-Braille Translation Model Based on Pretrained Language Models and Mixture of Experts Networks</h1>
 
-<p align="center">
-Dapeng Chen, Zhou Zhuang, Lianshun Shen, Chenkai Li, Lina Wei, and Jia Liu∗<br>
-Nanjing University of Information Science and Technology
-</p>
 
 ---
 <h2 align="center">ABSTRACT</h2>
